@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9cd3ad0eef510ea5","type":"text","text":"Personal Knowledge Base","x":-480,"y":-600,"width":250,"height":50},
+		{"id":"9c27dfc518bd3fa0","type":"text","text":"[[计算机视觉.canvas]]","x":-640,"y":-740,"width":205,"height":60},
+		{"id":"517a96aebb463bd8","x":-660,"y":-480,"width":165,"height":60,"type":"text","text":"[[编程语言.canvas]]"}
+	],
+	"edges":[
+		{"id":"e09dfeb6c6089ce8","fromNode":"9c27dfc518bd3fa0","fromSide":"bottom","toNode":"9cd3ad0eef510ea5","toSide":"left"},
+		{"id":"4dfdf58088523166","fromNode":"517a96aebb463bd8","fromSide":"top","toNode":"9cd3ad0eef510ea5","toSide":"left"}
+	]
+}

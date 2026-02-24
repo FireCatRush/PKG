@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"b38e6cc601746eb7","type":"text","text":"编程语言\n","x":-20,"y":-170,"width":250,"height":60},
+		{"id":"ba1ba95d4a929b5c","type":"text","text":"python","x":-420,"y":-400,"width":250,"height":60},
+		{"id":"34602c1bf6079fb5","type":"text","text":"[[uv]]","x":-1040,"y":-520,"width":250,"height":60},
+		{"id":"7ef8c77195ca7f82","type":"text","text":"[[poetry]]","x":-1040,"y":-430,"width":250,"height":60},
+		{"id":"92a562f787d3f94f","type":"text","text":"[[conda]]","x":-1040,"y":-340,"width":250,"height":60},
+		{"id":"2f1878706d6e2eeb","x":-640,"y":-400,"width":120,"height":60,"type":"text","text":"环境管理"}
+	],
+	"edges":[
+		{"id":"b1535dd05b274131","fromNode":"b38e6cc601746eb7","fromSide":"left","toNode":"ba1ba95d4a929b5c","toSide":"right"},
+		{"id":"3f4625135eb69902","fromNode":"ba1ba95d4a929b5c","fromSide":"left","toNode":"2f1878706d6e2eeb","toSide":"right"},
+		{"id":"db3dacb8d685e90d","fromNode":"2f1878706d6e2eeb","fromSide":"left","toNode":"34602c1bf6079fb5","toSide":"right"},
+		{"id":"e71f20b312d774e9","fromNode":"2f1878706d6e2eeb","fromSide":"left","toNode":"7ef8c77195ca7f82","toSide":"right"},
+		{"id":"05f09d855e686590","fromNode":"2f1878706d6e2eeb","fromSide":"left","toNode":"92a562f787d3f94f","toSide":"right"}
+	]
+}
